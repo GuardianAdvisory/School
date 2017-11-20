@@ -1,0 +1,35 @@
+List<Registered_Student> testList = new List<Registered_Student>();
+
+            Registered_Student obj = new Registered_Student();
+
+            //insert
+
+            //obj.EmisCode = 11;
+            //obj.Class = "Six";
+            //db.Registered_Student.Add(obj);
+            //db.SaveChanges();
+
+            //select
+
+            //testList = (from s in db.Registered_Student
+            //            where s.EmisCode==12
+            //            select s).ToList();
+
+
+            // update
+
+            //var result = db.Registered_Student.SingleOrDefault(b => b.Class == "nine");
+            //if (result != null)
+            //{
+            //    result.Class = "TEn";
+            //    db.SaveChanges();
+            //}
+
+            //delete
+
+            //var report = (from d in db.Registered_Student
+            //              where d.EmisCode == 12
+            //              select d).Single();
+
+            //db.Registered_Student.Remove(report);
+            //db.SaveChanges();
