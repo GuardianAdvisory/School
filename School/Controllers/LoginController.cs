@@ -12,7 +12,7 @@ namespace School.Controllers
         // GET: api/Login
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "school", "value2" };
         }
 
         // GET: api/Login/5
@@ -22,7 +22,7 @@ namespace School.Controllers
         }
 
         // POST: api/Login
-        public void addLogin()
+        public void Post()
         {
             HomeController dd = new HomeController();
             dd.Index();
